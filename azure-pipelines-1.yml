@@ -33,7 +33,3 @@ steps:
 - script: |
     pip install pytest pytest-azurepipelines
   displayName: 'Install dependencies'
-
-- script: |
-    python -m pytest tests/
-  displayName: 'pytest'
